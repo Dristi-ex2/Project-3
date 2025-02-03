@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin',normal;
+    font-weight: 400;
+}
+
+h1{
+    font-family: 'Oswald',normal;
+    font-weight: 700;
+    color: #010101;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.flex-div1,.flex-div2,.flex-div3,.flex-div4{
+    width: 360px;
+    height: 200px;
+    border: 1px solid gray;
+    border-width: 2px;
+    /* box-shadow: 2px 2px #247bf3; */
+    /* background-color: #e5eef7; */
+}
+
+.flex1 {
+    display: grid;
+}
+
+.flex-div1{
+    grid-column-start: 2;
+}
+.flex-div2{
+    grid-column-start: 1;
+    margin-left: 70px;
+}
+
+.flex-div3{
+    grid-column-start: 3;
+}
+
+.flex-div4{
+    grid-column-start: 2;
+}
+
+.flex-div1 h2,.flex-div2 h2,.flex-div3 h2,.flex-div4 h2{
+   margin-top: 60px;
+
+}
+
+
+
+
+
+
+  
+/* .......................................... */
+
+.section2{
+    background-color:   #edf3f9;
+    margin-top: 40px;
+}
+.section2-h2{
+    text-align: center;
+    font-family: 'Oswald',normal;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.flex-card1 ,.flex-card2 ,.flex-card3 {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/card-background.jpg');
+
+}
+
+.flex-card1 h2,.flex-card2 h2,.flex-card3 h2{
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.flex-card1 p,.flex-card2 p,.flex-card3 p{
+    color: #fff;
+    text-align: center;
+}
+
+.flex2-div1,.flex2-div2,.flex2-div3{
+    background-color: #fff;
+}
+
+.blue-p{
+    color: #247bf3;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.black-p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #9fc1e3;
+}
+.flex-card-btn{
+    background-color: #247bf3;
+    color: #fff;
+    width: 95%;
+    height: 30px;
+    border: 1px;
+}
+
+.card1-para1,.card1-para2,.card1-para3{
+    margin-left: 20px;
+}
+
+/* ................................................... */
+.flex-card1-p,.flex-card2-p,.flex-card3-p{
+    display: flex;
+    gap: 10px;
+
+}
+
+
